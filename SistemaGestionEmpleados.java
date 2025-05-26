@@ -1,8 +1,15 @@
 import java.util.Scanner;
 
+/**
+ * Clase principal que gestiona el sistema de empleados.
+ * Permite dar de alta empleados, aumentar su salario y mostrar el listado.
+ */
 public class SistemaGestionEmpleados {
 
-
+    /**
+     * Método principal que ejecuta la aplicación de gestión de empleados.
+     * @param args Argumentos de la línea de comandos (no se utilizan)
+     */
     public static void main(String[] args) {
         Empleados empleados = new Empleados(3);
         empleados.darDeAltaEmpleado(0, "Juan", "Desarrollador", 50000);

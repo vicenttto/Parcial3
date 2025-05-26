@@ -1,3 +1,7 @@
+/**
+ * Clase que centraliza los textos fijos (constantes) usados en la aplicación.
+ * Facilita la corrección y traducción de los mensajes en pantalla.
+ */
 public class Textos {
    
     public static final String LISTA_EMPLEADOS = "Lista de Empleados:";
