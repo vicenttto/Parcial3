@@ -19,7 +19,7 @@ public class Empleados {
     }
 
     public void mostrarEmpleados() {
-        System.out.println("Lista de Empleados:");
+        System.out.println(Textos.LISTA_EMPLEADOS);
         for (Empleado empleado : lista) {
             System.out.println(empleado);
         }
